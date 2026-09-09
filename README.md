@@ -2,7 +2,7 @@
   <img src="Snovfall.jpg" alt="FunnelWeb Tool Cover Art" width="100%" />
 </p>
 
-# snov_emails
+# SnovFall
 
 A command-line tool for pulling email addresses for a company's domain from the
 [Snov.io](https://snov.io) Domain Search API. Its defining feature is that it
