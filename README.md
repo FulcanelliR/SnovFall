@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="SnovFall.jpg" alt="FunnelWeb Tool Cover Art" width="100%" />
+</p>
+
 # snov_emails
 
 A command-line tool for pulling email addresses for a company's domain from the
