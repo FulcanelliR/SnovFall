@@ -202,7 +202,8 @@ def get_free_email_count(domain: str, token: str) -> Optional[int]:
 
 
 def get_company_info(domain: str, token: str) -> dict:
-    """Returns the 'meta' dict with counts. Costs 1 credit if results found."""
+    """Returns the full domain-search result dict (its 'meta' key holds the
+    counts used for the estimate). Costs 1 credit if results are found."""
     data = _start_and_result(DS_START, {"domain": domain}, token)
     return data
 
