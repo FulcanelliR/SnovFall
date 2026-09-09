@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SnovFall.jpg" alt="FunnelWeb Tool Cover Art" width="100%" />
+  <img src="Snovfall.jpg" alt="FunnelWeb Tool Cover Art" width="100%" />
 </p>
 
 # snov_emails
