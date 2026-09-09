@@ -133,29 +133,6 @@ then writes the results to a CSV.
 | `--max-pages N` | In all-emails mode, stop after `N` pages of 50 (caps credit spend). |
 | `--free-estimate` | Use the free email-count endpoint to estimate the "all emails" cost, then exit without spending any credits. |
 
-### Examples
-
-Retrieve only validated prospect emails, showing dollar estimates at $0.039 per
-credit, and cap spend at 50 prospects:
-
-```bash
-python snov_emails.py acme.com --mode validated --credit-price 0.039 --max-prospects 50
-```
-
-Retrieve all domain emails to a specific file, without prompting:
-
-```bash
-python snov_emails.py acme.com --mode all --out acme_all.csv --yes
-```
-
-Check the likely cost of the "all emails" option without spending a single
-credit:
-
-```bash
-python snov_emails.py acme.com --free-estimate
-```
-
----
 
 ## Output
 
